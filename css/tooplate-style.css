@@ -49,7 +49,7 @@ p {
   color: #e0dede;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 , h7 {
   font-weight: bold;
   letter-spacing: -1px;
 }
@@ -77,6 +77,15 @@ h6 {
   font-size: 1.6em;
   font-weight: bold;
 }
+
+h7 {
+  color: #353535;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+
 h3 {
   color: #484848;
 }
@@ -317,6 +326,10 @@ b, strong {
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
 .dark-mode .color-mode {
   color: #ffffff;
+}
+
+.dark-mode h7 {
+  color:#64ffda
 }
 
 dark-mode h5,

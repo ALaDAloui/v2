@@ -62,10 +62,21 @@ h1 {
 
 h2 {
   color: #353535;
-  font-size: 2.4em;
+  font-size: 2.2em;
   font-weight: bold;
 }
+h5 {
+  color: #353535;
+  font-size: 1.6em;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
 
+h6 {
+  color: #353535;
+  font-size: 1.6em;
+  font-weight: bold;
+}
 h3 {
   color: #484848;
 }
@@ -94,8 +105,8 @@ b, strong {
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
-  background: #ffc200;
-  color: #ffffff !important;
+  background: #64ffda;
+  color: #000000 !important;
 }
 
 .animated {
@@ -291,7 +302,7 @@ b, strong {
   color: rgba(255, 255, 255, 0.8);
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #64ffda;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
   background: #0c0c0d;
@@ -307,6 +318,12 @@ b, strong {
 .dark-mode .color-mode {
   color: #ffffff;
 }
+
+dark-mode h5,
+.dark-mode .color-mode {
+  color: #64ffda;
+}
+
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
@@ -436,9 +453,9 @@ b, strong {
   border-color: #ffc200;
 }
 .contact-form .submit-btn {
-  background: #ffc200;
+  background: #64ffda;
   border-radius: 50px;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
   border: 0;
   cursor: pointer;

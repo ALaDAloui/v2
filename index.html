@@ -38,16 +38,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+            <a href="#about" class="nav-link"><span data-hover="About">1. About</span></a>
           </li>
           <li class="nav-item">
-            <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+            <a href="#project" class="nav-link"><span data-hover="Projects">2. Projects</span></a>
           </li>
           <li class="nav-item">
-            <a href="#archive" class="nav-link"><span data-hover="Archive">Archive</span></a>
+            <a href="#archive" class="nav-link"><span data-hover="Archive">3. Archive</span></a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+            <a href="#contact" class="nav-link"><span data-hover="Contact"> 4. Contact</span></a>
           </li>
         </ul>
 
@@ -96,13 +96,15 @@
   <!-- PROJECTS -->
   <section class="project py-5" id="project">
     <div class="container">
-
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Some Things I’ve Built</h2>
+      </div>
+      <br>
+      <h6 class="mb-4 ">2.&ensp; Projects <i class="fa-solid fa-laptop"> </i></h6>
       <div class="row">
         <div class="col-lg-11 text-center mx-auto col-12">
 
-          <div class="col-lg-8 mx-auto">
-            <h2>Some Things I’ve Built</h2>
-          </div>
+
 
           <div class="owl-carousel owl-theme">
             <div class="item">
@@ -196,10 +198,10 @@
       <div class="col-lg-8 mx-auto text-center">
         <h2>A list of things I’ve worked on
         </h2>
-        
+
       </div>
       <br>
-      <h2 class="mb-4 "> Archive &ensp; <i class="fa-solid fa-folder-closed"> </i></h2>
+      <h6 class="mb-4 ">3.&ensp;Archive &ensp; <i class="fa-solid fa-folder-closed"> </i></h6>
 
       <br>
       <div class="row">
@@ -219,7 +221,7 @@
                     <a href="https://github.com/ALaDAloui/CI-CD-Counter.git" target="_blank" rel="noopener noreferrer">
                       <i class="fa-brands fa-github"></i>
                     </a> &ensp;
-                    </small></h3>
+                  </small></h3>
                 <p>
                   Find out how to implement a continuous integration and continuous deployment (CI/CD) pipeline with
                   Jenkins , SonarQube and Nexus for a project</p>
@@ -234,11 +236,12 @@
               <div class="timeline-info">
                 <h3><span>JobGate-platform</span><small>
                     <a href="https://github.com/ALaDAloui/job-platform" target="_blank" rel="noopener noreferrer">
-                      <i class="fa-brands fa-github"></i> 
+                      <i class="fa-brands fa-github"></i>
                     </a> &ensp;
-                    </small></h3>
+                  </small></h3>
                 <p>
-                  Developing a web application , serving candidates looking for new career opportunities and recruiters looking for new talents </p>
+                  Developing a web application , serving candidates looking for new career opportunities and recruiters
+                  looking for new talents </p>
                 <small2>SpringBoot(API REST) &ensp; angular12 &ensp; Mysql</small2>
 
               </div>
@@ -268,16 +271,16 @@
 
             </div>
           </div>
-          
+
           <div class="timeline-wrapper">
             <div class="timeline-yr">
               <span><i class="fa-solid fa-folder-open"> </i></span>
             </div>
             <div class="timeline-info">
               <h3><span>Portail-ordo(Orange)</span><small>
-                  </small></h3>
+                </small></h3>
               <p>
-                Retrieve in real time scheduled jobs and incidents through the reading of downloaded log files 
+                Retrieve in real time scheduled jobs and incidents through the reading of downloaded log files
                 (Excel) with high frequency from SWAN and OCEANE .</p>
               <small2>PHP5 &ensp; JavaScript</small2>
 
@@ -305,6 +308,52 @@
           </div>
         </div>
       </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Get in touch
+        </h2>
+
+      </div>
+      <br>
+      <h6 class="mb-4 ">4.&ensp;Contact &ensp; <i class="fa-solid fa-id-card-clip"></i></h6>
+      <br>
+      <div class="row">
+
+        
+
+        <div class="col-lg-6 col-12">
+          <div class="contact-form ">
+            <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+            <form action="https://formspree.io/f/mjvdkgep"
+              method="POST">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                </div>
+
+                <div class="col-12">
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                </div>
+
+                <div class="ml-lg-auto col-lg-5 col-12">
+                  <input type="submit" class="form-control submit-btn" value="Send message">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </section>
 
 

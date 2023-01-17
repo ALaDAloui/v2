@@ -35,7 +35,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #ffc200 !important;
+  color: #64ffda !important;
 }
 
 .navbar-brand .uil {
@@ -98,7 +98,7 @@ b, strong {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
-  color: #ffc200;
+  color: #64ffda;
 }
 .custom-btn.custom-btn-bg {
   background: #474559;
@@ -418,7 +418,7 @@ dark-mode h5,
   font-size: inherit;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #ffc200;
+  color: #64ffda;
 }
 .owl-theme .owl-dots .owl-dot {
   outline: none;
@@ -450,7 +450,7 @@ dark-mode h5,
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #ffc200;
+  border-color: #64ffda;
 }
 .contact-form .submit-btn {
   background: #64ffda;
